@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="place-self-center flex-col justify-items-center w-fit  bg-gray-100 rounded-4xl p-8 m-20">
+      <div className="place-self-center flex-col justify-items-center w-fit border-r-2 border-transparent  shadow-xl  bg-gray-100 rounded-4xl p-8 m-20">
         <TotalBalance />
         <IncomeExpense />
         <TransactionList />
